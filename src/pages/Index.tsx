@@ -117,15 +117,14 @@ const Index = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-  <a
-    href="/Mereena-Resume.pdf"
-    download
-    className="glass-card px-6 py-3 text-base font-semibold hover-glow flex items-center gap-3 transition-all duration-300 justify-center"
-  >
-    <Download className="w-5 h-5" />
-    Download Resume
-  </a>
   
+  <button 
+    onClick={() => scrollToSection('contact')}
+    className="glass-card px-6 py-3 text-base font-semibold hover-glow neon-border transition-all duration-300 justify-center"
+>
+    Download Resume
+    </button>
+
   <button
     onClick={() => scrollToSection('contact')}
     className="glass-card px-6 py-3 text-base font-semibold hover-glow neon-border transition-all duration-300 justify-center"
@@ -320,9 +319,7 @@ Driven by innovation and a problem-solving mindset, I’m eager to join forward-
                   <a href="https://www.linkedin.com/in/mereena-bodanapu/" target="_blank" rel="noopener noreferrer" className="glass-card p-4 hover-glow transition-all duration-300">
                     <Linkedin className="w-6 h-6 text-secondary" />
                   </a>
-                  <a href="https://leetcode.com/u/Mereena_bodanapu/" target="_blank" rel="noopener noreferrer" className="glass-card p-4 hover-glow transition-all duration-300">
-                    <Code className="w-6 h-6 text-accent" />
-                  </a>
+                  
                   <a href="mailto:mereenabodanapu02@gmail.com" className="glass-card p-4 hover-glow transition-all duration-300">
                     <Mail className="w-6 h-6 text-primary" />
                   </a>
